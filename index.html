@@ -1,3 +1,23 @@
-<main>
-  <img href="pic.jpg">
-</main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Full Image Page</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* makes it fill the screen nicely */
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <img src="pic.jpg" alt="Full Screen Image">
+</body>
+</html>
